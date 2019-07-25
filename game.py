@@ -140,8 +140,7 @@ def room_5():
     room_5_choice = input("> ")
 
     if room_5_choice == "n":
-        print("Going north")
-        # room_15()
+        room_15()
     elif room_5_choice == "s":
         room_1()
     elif room_5_choice == "w":
@@ -310,6 +309,31 @@ def room_14():
     print("You push with all your might, but you can't budge it.")
     print("The next room looks depressingly familiar...\n")
     room_5()
+
+def room_15():
+    print("The door slams shut behind you. There's no way out.")
+    print("Six sinister snakes slither over to you.")
+    print("The head snake asks, 'What is the forbidden fruit of this fungeon?'")
+    print("You ask, 'What's a fungeon?'")
+    print("The head snake replies, 'It's a fun dungeon, of course! Aren't you having fun?'")
+    print("The head snake repeats its question:")
+    print("'What is the forbidden fruit of this fungeon?'\n")
+
+    print("Type your answer. You have one chance. Spelling counts!")
+
+    room_15_choice = input("> ").lower()
+
+    if room_15_choice == "avocado":
+        print("The head snake nods in approval.")
+        print("You may pass.")
+        # room_16()
+    else:
+        print("The head snake looks at you sadly.")
+        print("'I'm sorry, that's going to cost you.'")
+        print("All six snake sink their fangs into you.")
+        print("The venom burns through your brain like a blowtorch.")
+        print("Your last thought before dying: ")
+        print("'I have a sudden craving for Mexican food...'")
 
 
 room_0()
