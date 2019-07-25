@@ -216,8 +216,7 @@ def room_8():
     elif room_8_choice == "s":
         room_11()
     elif room_8_choice == "e":
-        print("Going east")
-        # room_10()
+        room_10()
     elif room_8_choice == "w":
         room_9()
     else:
@@ -235,7 +234,7 @@ def room_9():
         room_8()
     elif room_9_choice == "2":
         print("The blob splats on your sword. That was easy!")
-        print("Return to the previous room.")
+        print("Return to the previous room.\n")
         room_8()
     elif room_9_choice == "3":
         print("The blob swallows your boomerang, burps, then swallows you whole.")
