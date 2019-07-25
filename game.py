@@ -325,16 +325,24 @@ def room_15():
 
     if room_15_choice == "avocado":
         print("The head snake nods in approval.")
-        print("You may pass.")
-        # room_16()
+        print("'You may pass.'")
+        print("The six snakes escort you to the last room.")
+        room_16()
     else:
         print("The head snake looks at you sadly.")
         print("'I'm sorry, that's going to cost you.'")
-        print("All six snake sink their fangs into you.")
+        print("All six snakes sink their fangs into you.")
         print("The venom burns through your brain like a blowtorch.")
         print("Your last thought before dying: ")
         print("'I have a sudden craving for Mexican food...'")
 
+def room_16():
+    print("There is a golden pedestal in the center of the room.")
+    print("On the pedestal is a mystical triangle and a beautiful heart.")
+    print("'Let's goooooooo!!!', you shout.")
+    print("A door opens, and sunlight streams in.")
+    print("The outside world awaits you as you continue your journey.")
+    print("Congratulations!\n")
 
 room_0()
 
